@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width" />
+  <title>ひるねすやすや</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <img src="img/1.png" id = "p1">
+  <img src="img/te.png" id = "te">
+
+  <script src="script.js">
+
+window.onload = function() {
+    //フルスクリーンにする
+    document.body.onclick = function() {
+        if (this.webkitRequestFullScreen) {
+             this.webkitRequestFullScreen();
+        }
+        else if (this. mozRequestFullScreen) {
+            this. mozRequestFullScreen();
+        }
+        else {
+            alert("not found")
+        }
+    };
+};
+
+
+
+
+
+let p1 = document.getElementById('p1');
+let te = document.getElementById('te');
+
+let tex = 250 ;//tex
+let tey = 180 ;//tey
+
+
+p1.addEventListener('mousemove', function(e) {
+let x = e.clientX - tex;
+let y = e.clientY - tey;
+
+te.style.transform = 'translate(' + x + 'px , ' + y + 'px )';
+
+});
+
+  </script>
+</body>
+</html>
