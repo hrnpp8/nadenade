@@ -14,7 +14,7 @@ let btn1 = document.getElementById('btn1');
 let btn2 = document.getElementById('btn2');
 
 let i=0;
-let c=0;
+let c=2;
 let nc;
 
 let nnc;
@@ -43,6 +43,11 @@ console.log(c);
 
 if(2<c){
  i +=800;
+ setTimeout('p1.src="img/1.png"', i);
+}
+
+if(5<c){
+ i +=800;
  setTimeout('p1.src="img/2.png"', i);
 }
 });
@@ -53,5 +58,6 @@ btn2.addEventListener('click',function(){
  setTimeout('p1.src="img/3.png"', 100);
   c=0;
 });
+
 
 
