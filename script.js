@@ -48,9 +48,9 @@ if(2<c){
 
 //なでない
 btn2.addEventListener('click',function(){
-　p1.src="img/3.png";
+ setTimeout('te.style.top = "50px"', 100);
+ setTimeout('p1.src="img/3.png"', 100);
   c=0;
 });
-
 
 
