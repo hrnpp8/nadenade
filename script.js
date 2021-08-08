@@ -24,6 +24,7 @@ btn1.addEventListener('click',function(){
 
 btn1.style.backgroundColor = "#ccc";
 
+te.style.top = "130px";
 for(nc=0; nc<3; nc++){
  i +=100;
  setTimeout('te.style.left = "150px"', i);
