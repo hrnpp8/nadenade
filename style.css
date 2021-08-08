@@ -10,7 +10,7 @@ body {
   position: relative;
   border-radius:50px;
   border:solid 1px #000;
-  background:rgba(255,255,255,20);
+  background:rgba(255,255,255,0.5);
 }
 
 #te {
