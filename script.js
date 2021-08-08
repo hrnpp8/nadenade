@@ -49,6 +49,7 @@ if(2<c){
 //なでない
 btn2.addEventListener('click',function(){
 　p1.src="img/3.png";
+  c = 0;
 });
 
 
