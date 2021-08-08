@@ -34,14 +34,14 @@ for(nc=0; nc<3; nc++){
  i +=100;
  setTimeout('te.style.left = "180px"', i);
 }
-i +=100;
 setTimeout('btn1.style.backgroundColor = "#fff"', i);
+i =0;
 c++;
 console.log(c);
 
 
 if(2<c){
- i +=200;
+ i +=800;
  setTimeout('p1.src="img/2.png"', i);
 }
 });
@@ -49,7 +49,7 @@ if(2<c){
 //なでない
 btn2.addEventListener('click',function(){
 　p1.src="img/3.png";
-  c = 0;
+  c=0;
 });
 
 
