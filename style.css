@@ -8,7 +8,9 @@ body {
 #p1 {
   width:500px;
   position: relative;
+  border-radius:50px;
   border:solid 1px #000;
+  background:rgba(255,255,255,20);
 }
 
 #te {
